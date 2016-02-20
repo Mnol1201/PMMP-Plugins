@@ -1,0 +1,36 @@
+name: Mana
+main: Mana\Mana
+version: 3.2.0
+author: delos
+api: 
+- 1.13.0
+- 2.0.0
+
+commands:
+ 마나뺏기:
+  permission: mana.command.stealmana
+  description: 마나를 뺏습니다.
+ 마나주기:
+  permission: mana.command.givemana
+  description: 마나를 지급합니다.
+ 마나설정:
+  permission: mana.command.setmana
+  description: 플레이어의 마나를 설정합니다.
+ 내마나:
+  permission: mana.command.mymana
+  description: 자신의 마나를 확인합니다.
+ 마나보기:
+  permission: mana.command.seemana
+  description: 다른사람의 마나를 확인합니다.
+
+permissions:
+ mana.command.stealmana:
+  default: OP
+ mana.command.givemana:
+  default: OP
+ mana.command.setmana:
+  default: OP
+ mana.command.mymana:
+  default: true
+ mana.command.seemana:
+  default: true
