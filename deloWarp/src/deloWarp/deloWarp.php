@@ -132,6 +132,7 @@ class deloWarp extends PluginBase implements Listener {
 		if (! isset ( $this->pdb [$x . "." . $y . "." . $z] )) {
 			$this->pdb [$x . "." . $y . "." . $z] = [ ];
 			$this->pdb [$x . "." . $y . "." . $z] ["warpname"] = $warpname;
+			$this->saveData();
 		}
 	}
 	public function returnPortalData($x, $y, $z) {
