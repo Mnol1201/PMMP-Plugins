@@ -1,0 +1,7 @@
+---
+messages:
+  admin-join: §b[ 서버 ] 어드민 @player 님이 서버에 접속하셨습니다 !
+  sub-admin-join: §c[ 서버 ] 부어드민 @player 님이 서버에 접속하셨습니다 !
+  op-join: §a[ 서버 ] OP @player 님이 서버에 접속하셨습니다 !
+  paid-join: §6[ 서버 ] 후원자 @player 님이 서버에 접속하셨습니다 !
+...

@@ -1,0 +1,7 @@
+name: AdminJoin
+main: AdminJoin\AdminJoin
+version: 1.0-last-update
+author: delos
+api:
+- 1.13.0
+- 2.0.0
