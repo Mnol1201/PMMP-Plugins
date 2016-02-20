@@ -1,0 +1,7 @@
+name: PlayerSkill
+main: PlayerSkill\PlayerSkill
+version: 3.0.0-alpha
+author: delos
+api: 
+- 1.13.0
+- 2.0.0
