@@ -1,0 +1,21 @@
+name: HungerGames
+main: HungerGames\HungerGames
+version: 1.0.0
+author: delos
+api:
+- 1.13.0
+- 2.0.0
+
+commands:
+ 게임시작:
+  permission: gamestart.command.allow
+  description: Start HungerGame
+ 게임종료:
+  permission: gameend.command.allow
+  description: Make end of HungerGame
+
+permissions:
+ gamestart.command.allow:
+  default: OP
+ gameend.command.allow:
+  default: OP
