@@ -1,0 +1,26 @@
+name: deloWarp
+main: deloWarp\deloWarp
+version: 1.0.0-alpha
+author: delos
+api:
+- 1.13.0
+- 2.0.0
+
+commands:
+ 워프:
+  permission: delowarp.command.warp
+  description: 이동
+ 워프삭제:
+  permission: delowarp.command.warpdelete
+  description: 워프삭제
+ 워프생성:
+  permission: delowarp.command.warpcreate
+  description: 워프생성
+
+permissions:
+ delowarp.command.warp:
+  default: true
+ delowarp.command.warpdelete:
+  default: OP
+ delowarp.command.warpcreate:
+  default: OP 
