@@ -1,0 +1,26 @@
+name: TerrorManager
+main: TerrorManager\TerrorManager
+version: 1.0.0-alpha
+author: delos
+api: 
+- 1.13.0
+- 2.0.0
+
+commands:
+ 서브넷밴:
+  permission: terrormanager.command.subnetban
+  description: 서브넷밴
+ 서브넷밴해제:
+  permission: terrormanager.command.pardonsubnet
+  description: 서브넷밴해제
+ 서브넷정보:
+  permission: terrormanager.command.seesubnet
+  description: 플레이어의 서브넷을 확인합니다.
+
+permissions:
+ terrormanager.command.subnetban:
+  default: OP
+ terrormanager.command.pardonsubnet:
+  default: OP
+ terrormanager-command-seesubnet:
+  default: OP
