@@ -18,6 +18,8 @@ use pocketmine\command\Command;
 
 use pocketmine\level\Position;
 
+use pocketmine\block\Block;
+
 use pocketmine\event\block\SignChangeEvent;
 
 use pocketmine\event\player\PlayerInteractEvent;
