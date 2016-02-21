@@ -1,0 +1,7 @@
+name: SKYJoin
+main: SKYJoin\SKYJoin
+version: 1.0.0-skyserver
+author: delos
+api:
+- 1.13.0
+- 2.0.0
