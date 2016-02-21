@@ -1,0 +1,16 @@
+name: Freeze
+main: Freeze\Freeze
+version: 1.1.0-alpha
+author: delos
+api:
+- 1.13.0
+- 2.0.0
+
+commands:
+ 프리즈:
+  permission: freeze.command.freeze
+  description: 플레이어가 못 움직이게 합니다.
+  
+ permissions:
+  freeze.command.freeze:
+   default: OP
