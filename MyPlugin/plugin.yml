@@ -1,0 +1,17 @@
+name: MyPlugin
+main: MyPlugin\MyPlugin
+version: 1.0.0-alpha
+author: delos
+api:
+- 1.13.0
+- 2.0.0
+- 9999.9999.9999
+
+commands:
+ 플러그인:
+  permission: myplugin.command.plugin
+  description: 플러그인 관리 명령어
+
+permissions:
+ myplugin.command.plugin:
+  default: OP
