@@ -1,0 +1,7 @@
+name: SuperBlock
+main: SuperBlock\SuperBlock
+author: delos
+version: 3.14-superblock
+api:
+- 1.13.0
+- 2.0.0
