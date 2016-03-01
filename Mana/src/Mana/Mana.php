@@ -127,7 +127,6 @@ class Mana extends PluginBase implements Listener {
 	public function manaAutoIncrease($player) {
 		$this->db [$player->getName ()] ["mana"] += $this->config ["amount"];
 		$this->saveMana ();
-		$this->getServer ()->broadcastMessage ( TextFormat::BLUE . "[ 마나 ] 마나가 " . $this->config ["amount"] . " 만큼 증가하였습니다." );
 	}
 	/**
 	 * 
