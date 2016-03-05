@@ -1,0 +1,21 @@
+name: OXQuiz
+main: main\main
+version: 1.0.0-alpha
+author: '델로스'
+api:
+- 1.13.0
+- 2.0.0
+
+commands:
+ 퀴즈:
+  permission: oxquiz.command.quiz
+  description: OX퀴즈 관리 명렁어
+ 퀴즈내기:
+  permission: oxquiz.command.applyquiz
+  description: 퀴즈내기
+  
+permissions:
+ oxquiz.command.quiz:
+  default: OP
+ oxquiz.command.applyquiz:
+  default: OP
