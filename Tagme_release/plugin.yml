@@ -1,0 +1,32 @@
+﻿name: Tagme
+main: Tagme\Tagme
+version: 2.1.0-alpha
+author: delos
+api: 
+- 1.13.0
+- 2.0.0
+
+commands:
+ 칭호설정:
+  permission: tagme.command.settag
+  description: 플레이어의 칭호 설정
+ 닉네임설정:
+  permission: tagme.command.setname
+  description: 플레이어의 닉네임 설정. 한글도 가능합니다.
+ 닉네임색:
+  permission: tagme.command.setcolor
+  description: 닉네임 색을 설정합니다.
+ 채팅색:
+  permission: tagme.command.setcolor
+  description: 플레이어의 채팅색을 설정합니다.
+ 칭호색:
+  permission: tagme.command.setcolor
+  description: 플레이어의 칭호색을 설정합니다.
+  
+permissions:
+ tagme.command.settag:
+  default: OP
+ tagme.command.setname:
+  default: OP
+ tagme.command.setcolor:
+  default: OP
